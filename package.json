@@ -4,7 +4,6 @@
   "description": "rozwiązanie dla e-teb>Node.js>Tutorial React",
   "license": "ISC",
   "author": "Filip",
-  "type": "commonjs",
   "main": "/src/index.js",
   "scripts": {
     "start": "react-scripts start",
