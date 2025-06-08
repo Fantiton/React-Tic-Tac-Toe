@@ -1,9 +1,9 @@
 import { useState} from 'react'
 
 export default function Board() {
-  const winner = CalculateWinner(squares)
   const [xIsNext, setXIsNext] = useState(true)
   const [squares, setSquares] = useState(Array(9).fill(null))
+  const winner = CalculateWinner(squares)
 
   let status 
 
